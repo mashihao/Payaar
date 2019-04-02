@@ -6,3 +6,8 @@
 打aar 包 参考连接
 
 https://blog.csdn.net/cangahi09025566/article/details/80278129
+
+
+scheme 跳转逻辑 参考连接
+
+https://www.jianshu.com/p/8e13860cb6da
