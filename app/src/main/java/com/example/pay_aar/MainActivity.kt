@@ -1,10 +1,10 @@
 package com.example.pay_aar
 
-import android.support.v7.app.AppCompatActivity
-import android.os.Bundle
-import kotlinx.android.synthetic.main.helloword.*
 import android.content.Intent
 import android.net.Uri
+import android.os.Bundle
+import android.support.v7.app.AppCompatActivity
+import kotlinx.android.synthetic.main.helloword.*
 
 
 class MainActivity : AppCompatActivity() {
@@ -29,6 +29,8 @@ class MainActivity : AppCompatActivity() {
             )
             startActivityForResult(intent, 102)
         }
+
+        out.setOnClickListener { this.finish() }
 
     }
 
